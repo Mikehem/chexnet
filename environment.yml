@@ -1,0 +1,17 @@
+name: chexnet
+channels: 
+   - conda-forge
+dependencies:
+  - python = 3.6
+  - cudatoolkit = 10.1
+  - cudnn = 7.6
+  - pip:
+    - numpy == 1.14.2
+    - matplotlib == 2.2.2
+    - pillow == 5.1.0
+    - pandas == 0.22.0
+    - scikit-image == 0.13.1
+    - scikit-learn == 0.19.1
+    - seaborn == 0.9.1
+    - ipython 
+    - ipykernel
